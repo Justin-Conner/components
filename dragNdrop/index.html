@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Drag and Drop</title>
+    <style>
+        .context-menu {
+            display: none;
+            position: absolute;
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 5px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .context-menu div {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .context-menu div:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div id="desktop" class="desktop">
+        <div id="taskbar" class ="taskbar">
+            
+            <img src="\Ubuntu logo.png" class="draggable" alt="Description of the image" width="50" height="50">
+        </div>
+    </div>
+    <div id="context-menu" class="context-menu">
+        <div id="rename">Rename</div>
+        <div id="pin-taskbar">Pin to Taskbar</div>
+        <div id="open-location">Open File Location</div>
+        <div id="launch">Launch</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
