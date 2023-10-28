@@ -1,0 +1,65 @@
+
+
+body {
+    background-color: #333;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden; 
+
+}
+
+.nav-left-desktop-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Set the height to 90% of the viewport height */
+    width: 100vw;
+    overflow: hidden; 
+    padding: auto;
+}
+
+.nav-left-container {
+    width: 70px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    height: calc(100% - 4 10px);  /* Fill the parent container's height */
+    margin-bottom: 10px;
+}
+
+.desktop-area {
+    flex: 1;
+    background: linear-gradient(to bottom right, #772953, #e95420);
+    color: white;
+    height: 100%; /* Fill the parent container's height */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 40px;
+
+}
+.navbar-top {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the items */
+    width: calc(100% - 40px); /* Adjust width to leave 40px space from the right */
+
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 3 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.background-image-desktop {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    /* other CSS properties for background-image-desktop class */
+}
+
