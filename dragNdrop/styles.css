@@ -1,0 +1,48 @@
+.desktop {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+    position: relative;
+    background-color: #dd00ff;
+}
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+}
+.taskbar{
+    background-color: black;
+    width: 110px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.context-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.context-menu div {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.context-menu div:hover {
+    background-color: #f1f1f1;
+}
+/* Add this style to ensure the taskbar is positioned properly */
+#taskbar {
+    position: relative;
+}
+
+/* Add this style to ensure the pinned image is displayed properly */
+.draggable {
+    position: absolute;
+}
