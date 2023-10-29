@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.colored-text p {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.green-text {
+    color: green;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.white-text {
+    color: white;
+}
+
+#textContainer{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.new-line {
+    display: block;
+    content: "";
+    margin-top: 1em; /* Adjust the margin as needed to control the spacing */
+}
+
+
