@@ -1,0 +1,136 @@
+body {
+    font-family: 'Consolas', monospace;
+    color: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+    font-size: 14px;
+}
+.app-icon {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    background-color: aqua;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.nav-item-l {
+    margin-top: 20px; /* Adjust the spacing between items as needed */
+}
+
+
+
+.app-icon:hover {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+   
+}
+
+
+.container {
+    width: 580px;
+    height: 370px;
+    position: relative;
+    background-color: black;
+    padding: auto;
+    margin-top: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.navbar {
+    width: 580px;
+    height: 30px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px 8px 0 0;
+}
+
+.image span{
+
+    color: black;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.green {
+  
+    background: radial-gradient(circle at 30% 20%, #ffffff 5%, green 80%); /* Gradient for lighting effect */
+    border: none;
+}
+
+.yellow {
+    
+    background: radial-gradient(circle at 30% 20%, #ffffff 5%, yellow 80%); /* Gradient for lighting effect */
+}
+
+.red {
+
+    background: radial-gradient(circle at 30% 20%, #ffffff 5%, red 80%); /* Gradient for lighting effect */
+}
+
+.input-container {
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input-text {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+     
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cursor {
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    animation: blink 1s infinite;
+}
+
+
+
+.display-controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
